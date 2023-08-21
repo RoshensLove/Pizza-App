@@ -42,7 +42,6 @@ const AddPizzaForm: FC<AddPizzaFormProps> = ({ addPizza }) => {
     }
   }
 
-  console.log('new pizza>>>>', newPizza)
 
   return (
     <form onSubmit={handleSubmit}>
